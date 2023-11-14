@@ -1,0 +1,14 @@
+s = input()
+if s.isalnum(): print(True)
+else : print(False)
+if  s.isalnum():
+    if not s.isdigit()or not s.isascii():
+        print(True)
+    else : print (False)
+else : print (False)
+if s.isdigit()or s.isalnum()or not s.isascii: print(True)
+else : print(False)
+if not s.isupper()and not s.isdigit():print(True)
+else : print(False)
+if not s.islower()and not s.isdigit():print(True)
+else : print(False)
